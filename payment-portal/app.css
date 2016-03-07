@@ -1,0 +1,10 @@
+/* app css stylesheet */
+
+.page-header {
+    padding-bottom: 1px !important;
+    margin: 10px 0 10px !important;
+    border-bottom: 1px solid #eee;
+    font-size: 19px !important;
+    font-weight: 900 !important;
+    color: #a3a3a3;
+}

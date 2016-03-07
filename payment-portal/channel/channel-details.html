@@ -1,0 +1,65 @@
+<div class="container">
+    <section class="page-header">
+        Channel Details
+    </section>
+    <div class="row">
+        <div class="col-md-7 ">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Channel Name</th>
+                        <th>Channel Endpoint</th>
+                        <th>Active?</th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-5 ">
+            <form class="form">
+                <div class="form-group">
+                    <label for="channelName">Channel Name:</label>
+                    <input type="text" class="form-control" id="channelName" name="channelName"
+                           placeholder="Enter channel name">
+                </div>
+                <div class="form-group">
+                    <label for="channelEndpoint">Channel Endpoint:</label>
+                    <input type="url" class="form-control" id="channelEndpoint" name="channelEndpoint"
+                           placeholder="Enter channel name">
+                </div>
+                <div class="form-group">
+                    <label for="channelType">Channel Type:</label>
+                    <input type="url" class="form-control" id="channelType" name="channelType"
+                           placeholder="Enter channel name">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Is callback channel?
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Is Active?
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="dateCreated">Date Created:</label>
+                    <input type="url" class="form-control" id="dateCreated" name="dateCreated"
+                           placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="lastModified">Last Modified:</label>
+                    <input type="url" class="form-control" id="lastModified" name="lastModified"
+                           placeholder="">
+                </div>
+                <div class="modal-footer">
+                    <div class="col-sm-11 pull-right">
+                        <button type="submit" class="btn btn-success">Save Changes</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

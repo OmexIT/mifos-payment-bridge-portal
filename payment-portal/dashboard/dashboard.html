@@ -1,0 +1,52 @@
+<div class="container">
+    <section class="page-header">
+        Dashboard
+    </section>
+    <p>This is the partial for view 1.</p>
+
+    <section class="content" ng-init="getInitDashboard()">
+        <!-- Info boxes -->
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-aqua"><i class="ion ion-ios-people-outline"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Total Registered KYC</span>
+                        <span class="info-box-number">{{total_registered_kyc}}</span>
+                    </div><!-- /.info-box-content -->
+                </div><!-- /.info-box -->
+            </div><!-- /.col -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-red"><i class="ion ion-ios-people-outline"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Total Individual KYC</span>
+                        <span class="info-box-number">{{total_individual_kyc}}</span>
+                    </div><!-- /.info-box-content -->
+                </div><!-- /.info-box -->
+            </div><!-- /.col -->
+
+            <!-- fix for small devices only -->
+            <div class="clearfix visible-sm-block"></div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-green"><i class="fa fa-university"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Total Corporate KYC</span>
+                        <span class="info-box-number">{{total_corporate_kyc}}</span>
+                    </div><!-- /.info-box-content -->
+                </div><!-- /.info-box -->
+            </div><!-- /.col -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box">
+                    <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text">Total Minor KYC</span>
+                        <span class="info-box-number">{{total_minor_kyc}}</span>
+                    </div><!-- /.info-box-content -->
+                </div><!-- /.info-box -->
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </section>
+</div>
